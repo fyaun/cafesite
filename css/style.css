@@ -950,7 +950,7 @@ scroll_left ｜左から出現
   width: 200px;
   margin: 0 auto 0;
 
-  padding-top: 100px;
+  padding-top: 60px;
 
   text-align: center;
 }
@@ -1056,7 +1056,7 @@ border: none;
 @media (max-width: 767px) {
 
   .external-link {
-    padding-top: 100px;
+    padding-top: 60px;
   }
 
 }
