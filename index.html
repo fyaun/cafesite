@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- スマホやタブレットでも綺麗に表示する「レスポンシブ表示」のための記述。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- サイトの概要を記述します。 -->
+    <title>cafeshop</title>
+        
+    <!-- サイトの概要を記述します。検索結果に表示される説明文には、この内容が表示されます。 -->
+    <meta name="description" content="カフェのサイトです。">
+        
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header id="header" class="header">
+        <div class="header-inner">
+            
+                <h2 class="header-logo">
+                    <a href="index.html">Cafe
+                        <span>shop</span>
+                    </a>
+                </h2>
+    
+                <!-- ハンバーガー -->
+                <div class="drawer-icon">
+
+                    <div class="drawer-text">
+                        <a id="myText">MENU</a>
+                    </div>
+
+                    <div class="drawer-icon-bars">
+                        <div class="drawer-icon-bar1"></div>
+                        <div class="drawer-icon-bar2"></div>
+                        <div class="drawer-icon-bar3"></div>
+                    </div>
+                </div>
+
+
+                <div class="drawer-contents">
+                    <div class="drawer-content">
+                        
+                        <div class="drawer-content-item"><a href="#home">Home</a></div>
+                        <div class="drawer-content-item"><a href="#news">News</a></div>
+                        <div class="drawer-content-item"><a href="#menu">Menu</a></div>
+                        <div class="drawer-content-item"><a href="#price">Price</a></div>
+                        <div class="drawer-content-item"><a href="#access">Access</a></div>
+                        <div class="drawer-content-item"><a href="#contact">Contact</a></div>
+
+                    </div>
+
+                    <div id="wrapper">
+                        <div class="wave">
+                          <p></p>
+                        <canvas id="waveCanvas"></canvas>
+                        </div>
+                        <p><a href="https://jsfiddle.net/39we73t1/" target="_blank">https://jsfiddle.net/39we73t1/</a></p>
+                    </div>
+
+                </div>
+
+                <div class="drawer-background"></div>
+    
+          <!-- hamburger -->
+    
+        </div>
+        </header>
+
+        <!-- loading -->
+        <div id="loading">
+            <div id="loading_text"></div>
+        </div>
+        
+
+    <!-- top -->
+
+    <section class="top-contents">
+        <div class="top-content">
+
+            <div class="top-bg"></div>
+
+            <h2 class="top-title">
+                <div><span>CAFE</span></div>
+                <div><span>NAKANO</span></div>
+            </h2>
+            
+        </div>
+
+    </section>
+
+    <!-- news -->
+    <div class="news-contents">
+        <a href="#" class="news-content">
+            <p class="news-time"><time class="news-date" datetime="2023-07-01">2023-07-01</time></p>
+            <p class="news-text arrow">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</p>
+        </a>
+    </div>
+
+
+    <!-- overview -->
+    <section id="right-contents" class="right-contents">
+
+        <h2 class="section-title left-title">OverView</h2>
+
+        <div class="right-content">
+
+            <div class="right-text">
+                <p>テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト</p>
+            </div>
+
+            <div class="right-images scroll_left">
+                <img src="img/overview.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- visual -->
+    <section class="right-contents">
+        <h2 class="section-title right-title">Visual</h2>
+        <div class="right-content">
+
+            <div class="right-images scroll_left">
+                <img src="img/overview.jpg" alt="">
+            </div>
+
+            <div class="right-text">
+                <p>テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト</p>
+            </div>
+
+        </div>
+    </section>
+
+        <!-- menu -->
+        <section class="menu-contents">
+
+            <h2 class="section-title center-title">Menu</h2>
+            
+            <div class="menu-content">
+                
+                <ul class="menu-inner scroll_left">
+                    <li class="menu-list">
+                        <div class="menu-images">
+                            <img src="img/drink-menu.jpg" alt="">
+                        </div>
+                        <p>Drink</p>
+                        <p>飲み物</p>
+                    </li>
+                    <li class="menu-list">
+                        <div class="menu-images">
+                            <img src="img/foods.jpg" alt="">
+                        </div>
+                        <p>Food</p>
+                        <p>食べ物</p>
+                    </li>
+                    <li class="menu-list">
+                        <div class="menu-images">
+                            <img src="img/desert.jpg" alt="">
+                        </div>
+                        <p>Desert</p>
+                        <p>デザート</p>
+                    </li>
+                </ul>
+    
+                <div class="external-link">
+                <a href="#" class="link-btn bordercircle"><span>Menu</span></a>
+                </div>
+    
+            </div>
+        </section>
+
+        <section class="price-contents">
+            <div class="price-content">
+    
+                <h2 class="section-title">Price</h2>
+    
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="3" class="textAlign-center textTransform-uppercase">Drink</th>
+                        </tr>
+                        <tr>
+                            <td class="textAlign-center">Americano ¥500</td>
+                            <td class="textAlign-center">Cafe latte ¥550</td>
+                            <td class="textAlign-center">Soy latte ¥600</td>
+                        </tr>
+                        <tr>
+                            <td class="textAlign-center">Milk ¥300</td>
+                            <td class="textAlign-center">Soy milk ¥350</td>
+                            <td class="textAlign-center">Mineral water ¥-</td>
+                        </tr>
+                        <tr>
+                            <td class="textAlign-center">Sparkling water ¥-</td>
+                            <td class="textAlign-center">Blood Orange Juice ¥-</td>
+                            <td class="textAlign-center">Apple Juice ¥-</td>
+                        </tr>
+                        <tr>
+                            <td class="textAlign-center">Cola ¥-</td>
+                            <td class="textAlign-center">Ginger ale ¥-</td>
+                            <td class="textAlign-center">Beer ¥-</td>
+                        </tr>
+                        <tr>
+                            <td class="textAlign-center">Glass of wine ¥-</td>
+                            <td class="textAlign-center"></td>
+                            <td class="textAlign-center"></td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+            </div>
+    
+        </section>
+
+
+
+        <section class="contact-contents">
+            <div class="contact-content">
+                <div class="contact-inner">
+                    <h3 class="section-title2">CONTACT</h3>
+    
+                    <p>〇〇に関するお問合せは、専用フォームよりお願いします。</p>
+    
+                    <div class="external-link">
+                        <a href="#" class="link-btn bordercircle"><span>Contact</span></a>
+                        </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="top-btn">
+            <a href="#" id="page_top" class="scroll-btn"><span></span></a>
+        </div>
+    
+        <footer>
+            <div class="footer-contents">
+                <ul class="footer-content">
+                    <li class="footer-text"><a href="#">Home</a></li>
+                    <li class="footer-text"><a href="#">News</a></li>
+                    <li class="footer-text"><a href="#">Menu</a></li>
+                    <li class="footer-text"><a href="#">Price</a></li>
+                    <li class="footer-text"><a href="#">Access</a></li>
+                    <li class="footer-text"><a href="#">Contact</a></li>
+                </ul>
+    
+                <div class="footer-inner">
+                    <div class="footer-item">
+                        <p>© 2023 Cafeshop</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+<!-- jquery & iScroll -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js"></script>
+<!--IE11用-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+<!--IE11用-->
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
