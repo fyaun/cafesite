@@ -691,14 +691,14 @@ scroll_left ｜左から出現
 .right-contents {
   position: relative;
   
-  margin-top: 25%;
+  margin-top: 300px;
   }
   
   .right-content {
     background: #15161a;
     display: flex;
     justify-content: center;
-    height: 70vh;
+    height: 75vh;
   
     /* ヘッダーのことを考えて */
     padding-left: 20px;
@@ -747,9 +747,10 @@ scroll_left ｜左から出現
   .right-contents {
     position: relative;
     
-    margin-top: 40%;
+    margin-top: 150px;
 
-    height: 70vh;
+    /* height: 70vh; */
+    height: 100%;
     }
 
   .right-content {
@@ -757,7 +758,8 @@ scroll_left ｜左から出現
   
     display: block;
     justify-content: center;
-    height: 50vh;
+    /* height: 50vh; */
+    height: 100%;
   
     /* ヘッダーのことを考えて */
     padding-left: 10px;
@@ -800,7 +802,8 @@ scroll_left ｜左から出現
 @media (min-width: 768px) and (max-width: 1199px) {
   .right-content {
     background: #15161a;
-  
+    height: 60vh;
+
     /* ヘッダーのことを考えて */
     padding-left: 10px;
     padding-right: 10px;
@@ -835,10 +838,10 @@ scroll_left ｜左から出現
 .menu-contents {
   position: relative;
   
-  margin-top: 25%;
+  margin-top: 300px;
   padding: 10px 0;
 
-  height: 90vh;
+  /* height: 90vh; */
   }
   
   .center-title {
@@ -889,8 +892,8 @@ scroll_left ｜左から出現
   @media (max-width: 767px) {
 
     .menu-contents {
-      
-      height: 70vh;
+      margin-top: 150px;
+      /* height: 70vh; */
       }
 
     .menu-content {
@@ -928,7 +931,7 @@ scroll_left ｜左から出現
 
     .menu-contents {
       
-      height: 70vh;
+      /* height: 70vh; */
       }
 
     .menu-inner {
@@ -1068,7 +1071,7 @@ border: none;
 
 
 .price-contents {
-  margin-top: 300px;
+  margin-top: 400px;
 }
 
 .price-content {
@@ -1076,8 +1079,6 @@ border: none;
   padding: 120px;
   height: 70vh;
   display: flex;
-
-
 }
 
 .price-content h2 {
@@ -1106,7 +1107,7 @@ th {
 @media (max-width: 767px) {
 
   .price-contents {
-    margin-top: 100px;
+    margin-top: 150px;
   }
 
   .price-content {
@@ -1151,7 +1152,7 @@ th {
 ==================================================== */
 
 .access-contents {
-  margin-top: 25%;
+  margin-top: 300px;
 }
 
 .access-content {
@@ -1196,6 +1197,9 @@ iframe {
 
 @media (max-width: 767px) {
 
+  .access-contents {
+    margin-top: 150px;
+  }
   .access-content {
     display: block;
   }
@@ -1227,7 +1231,7 @@ iframe {
 ==================================================== */
 
 .contact-contents {
-  margin-top: 25%;
+  margin-top: 300px;
 }
 
 .contact-content {
@@ -1258,6 +1262,10 @@ iframe {
 }
 
 @media (max-width: 767px) {
+
+  .contact-contents {
+    margin-top: 150px;
+  }
 
   .contact-content {
     padding: 50px 0 30px;
