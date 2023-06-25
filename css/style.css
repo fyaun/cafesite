@@ -570,6 +570,7 @@ scroll_left ｜左から出現
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .top-content > h2 {
+	font-size:26px;
     position: absolute;
     top: 40%;
     left: 12%;
