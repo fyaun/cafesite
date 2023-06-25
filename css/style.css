@@ -482,7 +482,7 @@ scroll_left ｜左から出現
   .header-logo {
     width: 70px;
     top: 20px;
-    left: 20px;
+    left: 10px;
   }
   .header-logo a span{
     top: 50%;
@@ -492,7 +492,7 @@ scroll_left ｜左から出現
 
   .drawer-icon {
     top: 15px;
-    right: 20px;
+    right: 10px;
   }
 
 
@@ -840,8 +840,6 @@ scroll_left ｜左から出現
   
   margin-top: 300px;
   padding: 10px 0;
-
-  /* height: 90vh; */
   }
   
   .center-title {
@@ -854,10 +852,19 @@ scroll_left ｜左から出現
   }
   
   .menu-content {
-    background: #15161a;
-    height: 70vh;
-  
     padding-top: 60px;
+    position: relative;
+  }
+
+  .menu-bg {
+    background: #15161a;
+    /* background: red; */
+    height: 70vh;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    z-index: -1;
   }
   
   .menu-inner {
@@ -897,10 +904,12 @@ scroll_left ｜左から出現
       }
 
     .menu-content {
-      background: #15161a;
-      height: 50vh;
-    
       padding-top: 60px;
+    }
+
+
+    .menu-bg {
+      height: 50vh;
     }
 
     .center-title {
@@ -928,12 +937,6 @@ scroll_left ｜左から出現
   }
 
   @media (min-width: 768px) and (max-width: 1199px) {
-
-    .menu-contents {
-      
-      height: 100%;
-
-      }
 
     .menu-inner {
       padding:0 10px;
@@ -1072,7 +1075,7 @@ border: none;
 
 
 .price-contents {
-  margin-top: 400px;
+  margin-top: 300px;
 }
 
 .price-content {
