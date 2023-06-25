@@ -893,7 +893,7 @@ scroll_left ｜左から出現
 
     .menu-contents {
       margin-top: 150px;
-      /* height: 70vh; */
+      height: 100%;
       }
 
     .menu-content {
@@ -931,7 +931,8 @@ scroll_left ｜左から出現
 
     .menu-contents {
       
-      /* height: 70vh; */
+      height: 100%;
+
       }
 
     .menu-inner {
