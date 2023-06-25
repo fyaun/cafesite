@@ -568,18 +568,6 @@ scroll_left ｜左から出現
 
 
 
-@media (min-width: 768px) and (max-width: 1199px) {
-  .top-content > h2 {
-	font-size:26px;
-    position: absolute;
-    top: 40%;
-    left: 12%;
-
-}
-}
-
-
-
 /*==================================================
  # news-contents
 ==================================================== */
@@ -599,7 +587,8 @@ scroll_left ｜左から出現
   align-items: center;
 
   position: absolute;
-  top: -30px;
+  /* top: -30px; */
+  top: 0;
   right: 0;
 }
 
@@ -665,9 +654,6 @@ scroll_left ｜左から出現
   display: flex;
   align-items: center;
 
-  position: absolute;
-  top: -30px;
-  right: 0;
 }
 
 
@@ -687,7 +673,6 @@ scroll_left ｜左から出現
     padding: 1rem;
     width: 90%;
     font-size: 10px;
-
   }
 }
 
