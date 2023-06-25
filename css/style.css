@@ -552,7 +552,7 @@ scroll_left ｜左から出現
 .top-content > h2 {
     font-size: calc(48px + 138 * ((100vw - 500px)/ 2500));
     display: block;
-    z-index: 10;
+    /* z-index: 10; */
     position: absolute;
     top: 55%;
     left: 12%;
@@ -570,6 +570,14 @@ scroll_left ｜左から出現
 
 
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .top-content > h2 {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+
+}
+}
 
 
 
