@@ -132,7 +132,7 @@ section {
 	top: -20px;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 100px;
+	width: 20%;
 	height: 1px;
 	background-color: #73674c;
 }
@@ -270,10 +270,10 @@ section {
 scroll_left ｜左から出現
 ----------------------------*/
 .scroll_left {
-  -webkit-transition: 0.8s ease-in-out;
-  -moz-transition: 0.8s ease-in-out;
-  -o-transition: 0.8s ease-in-out;
-  transition: 0.8s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
   transform: translateX(-30px);
   opacity: 0;
   filter: alpha(opacity=0);
@@ -287,7 +287,7 @@ scroll_left ｜左から出現
 }
 
 
-
+/* ローディングアニメーション */
 
 #loading {
   position: fixed;
